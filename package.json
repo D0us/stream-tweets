@@ -1,0 +1,18 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "npx tsc",
+    "br": "npx tsc && node build/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
